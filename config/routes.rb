@@ -1,3 +1,3 @@
 OembedProviderEngine::Engine.routes.draw do
-  match "/(.:format)" => "oembed_provider#endpoint"
+  get "/(.:format)" => "oembed_provider#endpoint"
 end
